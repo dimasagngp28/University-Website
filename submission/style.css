@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+.navbar-container {
+    background-color: rgb(39, 51, 141);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 20px;
+}
+header.navbar-container .logo img {
+    width: 80px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    color: antiquewhite; 
+    position: relative;
+    left: 20px;
+    align-items: center;
+}
+header.navbar-container .navbar-atas ul {
+    font-family:'roboto', sans-serif;
+    font-weight: 700;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    left: 150px;
+    text-decoration: none;
+    align-items: center;
+}
+header.navbar-container .navbar-atas li {
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+}
+header.navbar-container .navbar-atas li a {
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: rgb(245, 226, 14);
+    padding: .5rem 1.5rem;
+    border-radius: 100px;
+    transition: all .2s ease-in-out;
+}
+header.navbar-container .navbar-atas li:hover a {
+    background-color: rgb(245, 226, 14);
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border-radius: 100px; 
+    transition: all .2s ease-in-out;
+}
+body .banner-kampus-4 img{
+    width: 100% ;
+}
+main .content .content-description h2 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    background-color:rgb(39, 51, 141);
+    padding: 20px;
+    color: antiquewhite;
+
+}
+main .content .content-description p {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    background-color: rgb(71, 90, 236) ;
+    padding: 20px;
+    color: antiquewhite;
+    text-align: justify;
+}
+h2 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    background-color:rgb(39, 51, 141);
+    padding: 20px;
+    color: #faebd7;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1;
+    padding: 30px;
+    
+}
+.card-sarjana {
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: rgb(39, 51, 141);
+    overflow: hidden;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    
+}
+.card-sarjana .header{
+    text-align: center;
+    padding: 5px;
+
+}
+h3 {
+    color:antiquewhite ;
+}
+.card-sarjana .content-sarjana {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color:antiquewhite;
+    padding: 10px;
+}
+.content-sarjana button{
+    padding: .5rem 1rem;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    border: 0px solid transparent;
+    border-radius: 400px;
+    background-color: rgb(39, 51, 141);
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    color:rgb(255, 235, 13);
+
+}
+.content-sarjana button:hover{
+    border: 0px solid transparent;
+    color:black;
+    background-color: rgb(255, 235, 13);
+    font-weight: 700;
+}
+.card-sarjana-terapan {
+    border-radius: 10px;
+    background-color: rgb(39, 51, 141);
+    overflow: hidden;
+    margin: 10px;
+    flex: 1;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.card-sarjana-terapan .header{
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+}
+.card-sarjana-terapan .content-sarjana-terapan {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color:antiquewhite;
+    padding: 10px;
+}
+.content-sarjana-terapan button{
+    padding: .5rem 1rem;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    border: 0px solid transparent;
+    border-radius: 400px;
+    background-color: rgb(39, 51, 141);
+    cursor: pointer;
+    text-align: center;
+    color:rgb(255, 235, 13);
+
+}
+.content-sarjana-terapan button:hover{
+    border: 0px solid transparent;
+    color:black;
+    background-color: rgb(255, 235, 13);
+    font-weight: 700;
+    text-align: center;
+}
+.card-profesi {
+    border-radius: 10px;
+    background-color: rgb(39, 51, 141);
+    overflow: hidden;
+    margin: 10px;
+    flex: 1;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.card-profesi .header{
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+}
+.card-profesi .content-profesi {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color:antiquewhite;
+    padding: 10px;
+}
+.content-profesi button{
+    padding: .5rem 1rem;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    border: 0px solid transparent;
+    border-radius: 400px;
+    background-color: rgb(39, 51, 141);
+    cursor: pointer;
+    text-align: center;
+    color:rgb(255, 235, 13);
+}
+.content-profesi button:hover{
+    border: 0px solid transparent;
+    color:black;
+    background-color: rgb(255, 235, 13);
+    font-weight: 700;
+}
+.card-magister {
+    border-radius: 10px;
+    background-color: rgb(39, 51, 141);
+    overflow: hidden;
+    margin: 10px;
+    flex: 1;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.card-magister .header{
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+}
+.card-magister .content-magister {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color:antiquewhite;
+    padding: 10px;
+}
+.content-magister button{
+    padding: .5rem 1rem;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    border: 0px solid transparent;
+    border-radius: 400px;
+    background-color: rgb(39, 51, 141);
+    cursor: pointer;
+    color:rgb(255, 235, 13);
+}
+.content-magister button:hover{
+    border: 0px solid transparent;
+    color:black;
+    background-color: rgb(255, 235, 13);
+    font-weight: 700;
+}
+.card-doktor {
+    border-radius: 10px;
+    background-color: rgb(39, 51, 141);
+    overflow: hidden;
+    margin: 10px;
+    flex: 1;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.card-doktor .header{
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+}
+.card-doktor .content-doktor {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    color:antiquewhite;
+    padding: 10px;
+}
+.content-doktor button{
+    padding: .5rem 1rem;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    border: 0px solid transparent;
+    border-radius: 400px;
+    background-color: rgb(39, 51, 141);
+    cursor: pointer;
+    color:rgb(255, 235, 13);
+}
+.content-doktor button:hover{
+    border: 0px solid transparent;
+    color:black;
+    background-color: rgb(255, 235, 13);
+    font-weight: 700;
+}
+.container-mahasiswa {
+    margin: 0px auto;
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(159, 201, 255);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.card-info {
+    height: 150px;
+    flex: 0.2;
+    border-radius: 10px;
+    background-color: rgb(39, 51, 141);
+    overflow: hidden;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    align-items: center;
+}
+.content-informasi {
+    height: 150px;
+    width: 100px;
+    text-align: center;
+    margin: 60px auto;
+    align-items: center;
+    justify-content: center;
+}
+.content-informasi button {
+   background-color: rgb(255, 235, 13);
+   padding: 10px;
+   margin-block-start: 1rem;
+   font-size: 1rem;
+   font-family: 'roboto' sans-serif;
+   font-weight: 500;
+   border: 0px solid transparent;
+   border-radius: 10px;
+   cursor: pointer;
+   align-items: center;
+}
+.content-informasi button:hover{
+    border: 0px solid transparent;
+    color:black;
+    background-color: rgb(255, 235, 13);
+    font-weight: 700;
+
+}
+.card-panduan {
+    height: 150px;
+    flex: 0.2;
+    border-radius: 10px;
+    background-color: rgb(39, 51, 141);
+    overflow: hidden;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    align-items: center;
+}
+.content-panduan {
+    height: 150px;
+    text-align: center;
+    margin: 60px auto;
+    align-items: center;
+}
+.content-panduan button {
+    background-color: rgb(255, 235, 13);
+    padding: 10px;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    font-family: 'roboto' sans-serif;
+    font-weight: 500;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+.content-panduan button:hover{
+    border: 0px solid transparent;
+    color:black;
+    background-color: rgb(255, 235, 13);
+    font-weight: 700;
+
+}
+.card-beasiswa {
+    height: 150px;
+    flex: 0.2;
+    border-radius: 10px;
+    background-color: rgb(39, 51, 141);
+    overflow: hidden;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    align-items: center;
+}
+.content-beasiswa {
+     height: 150px;
+    text-align: center;
+    margin: 60px auto;
+    align-items: center;
+}
+.content-beasiswa button {
+    background-color: rgb(255, 235, 13);
+    padding: 10px;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    font-family: 'roboto' sans-serif;
+    font-weight: 500;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+.content-beasiswa button:hover{
+    border: 0px solid transparent;
+    color:black;
+    background-color: rgb(255, 235, 13);
+    font-weight: 700;
+
+}
+.container-kontak{
+    height: 150px;
+    background-color: rgb(159, 201, 255);
+    padding: 25px;
+    align-items: center;
+}
+.container-kontak p {
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+}
+aside img {
+    width: 200px;
+}
+aside h3 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: rgb(39, 51, 141);
+    padding: 20px;
+}
+.aside-container{
+    background-color: rgb(159, 201, 255);
+    display: flex;
+    align-items: center;
+}
+figure img{
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+}
+figure {
+    padding: 30px;
+}
+table {
+    margin-left: 10px;
+    margin: 20px;
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+table th {
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+table td{
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer {
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(39, 51, 141);
+    text-align: center;
+    font-weight: 500;
+ }
+@media screen and (min-width: 700px) {
+    .navbar-atas ul {
+    font-family:'roboto', sans-serif;
+    font-weight: 700;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    left: 150px;
+    text-decoration: none;
+    align-items: center;
+    } 
+}
+@media screen and (max-width: 700px) {
+    .container-mahasiswa{
+        display: block;
+    }
+    .aside-container {
+        display: block;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .navbar-container {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container {
+        padding: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: flex;
+        width:fit-content;
+        display: flex;
+    }
+    .content-sarjana button {
+        text-align: center;
+        align-items: center;
+    }
+
+}
